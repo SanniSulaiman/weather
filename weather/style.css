@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(238, 101, 229);
+
+}
+.box{
+    width: 80%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100%px auto 0;
+    padding: 50px 35px;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    border-radius: 20px;
+
+}
+.search{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+input{
+    width: 60%;
+    height: 40px;
+    text-align: center;
+}
+.temp{
+    height: 50%;
+    margin-top: 20px;
+}
+.city{
+        height: 50%;
+        margin-top: 20px;
+}
+.logo{
+    margin-top: 50px;
+    width: 60px;
+
+}
